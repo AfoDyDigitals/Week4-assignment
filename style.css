@@ -1,0 +1,103 @@
+body {
+    background-image: url("./images/Zebra Background.jpg");
+    /* height: 100%; */
+    /* width:` 100vw; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(98, 98, 98, 0.758);
+    width: calc(95% - 10px);
+    padding: 0px 5px;
+}
+
+
+h2 {
+    align-content: end;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #44b0ff;
+    color: white !important;
+}
+
+menu {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    margin: 200px 40px ;
+    justify-content: left;
+    justify-items: left;
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+}
+
+h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial regular', Arial, sans-serif;
+    font-size: smaller;
+    margin: 40px;
+    color: rgba(255, 255, 255, 0.524);
+}
+
+a:hover {
+    color: #44b0ff;
+}
+
+.cta {
+    background-color: #44b0ff;
+    width: 150px;
+    height:30px;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    /* margin: 10px; */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-cta {
+    background-color: #44b0ff;
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
+}
